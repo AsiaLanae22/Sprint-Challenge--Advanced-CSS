@@ -1,15 +1,21 @@
 // Navigation code here
+
+
+
 .title {
     .flex(space-between, center);
     font-size: 5rem;
-    
+    margin-left: 100px;
   }
   nav {
-      .flex(space-evenly, center);
+      .flex(space-around, center);
+      justify-content: space-between;
       display: flex;
       flex-direction: row;
       width: 45%;
-      margin-top: 50px;
+      margin: 0 auto;
+      margin-top: 200px;
+      margin-right: 100px;
       @media @phone {
           color: red;
       }
@@ -18,5 +24,5 @@
       text-decoration: none;
       color: black;
       font-size: 2rem;
-      }
+ }
   }
