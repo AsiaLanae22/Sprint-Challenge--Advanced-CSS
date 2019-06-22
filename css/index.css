@@ -167,9 +167,10 @@ p {
   font-size: 5rem;
 }
 nav {
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   display: flex;
+  flex-direction: row;
   width: 45%;
   margin-top: 50px;
 }
@@ -189,6 +190,11 @@ footer {
   padding: 20px 0;
   border: 1px double #e0e0e0;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
   display: flex;
   justify-content: center;
   align-items: center;
