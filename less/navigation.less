@@ -2,15 +2,16 @@
 .title {
     .flex(space-between, center);
     font-size: 5rem;
-    margin-left: 450px;
+    
   }
   nav {
       .flex(space-between, center);
       display: flex;
       width: 45%;
-      margin-left: 350px;
       margin-top: 50px;
-      
+      @media @phone {
+          color: red;
+      }
       
       a{
       text-decoration: none;
