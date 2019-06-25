@@ -1,23 +1,23 @@
 // Navigation code here
 
 
-
-.title {
+.header{
     .flex(space-between, center);
+    display: flex;
+    flex-direction: column;
+.title{
+    
     font-size: 5rem;
     margin-left: 100px;
   }
-  nav {
-      .flex(space-around, center);
+  nav{
+      
       display: flex;
       flex-direction: row;
-      width: 65%;
-      margin: 0 auto;
-      margin-top: 200px;
-      margin-right: 100px;
+      width: 100%;
       color: black
-      @media @phone {
-          color: black;
+      @media @phone{
+        color: black;
       }
       
       a{
@@ -26,4 +26,5 @@
       font-size: 2rem;
       justify-content: space-between;
  }
-  }
+}
+}
